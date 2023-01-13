@@ -1,0 +1,76 @@
+@font-face {font-family: "PantonNarrow-ExtraBoldItalic"; src: url("//db.onlinewebfonts.com/t/f77fd2fac65f7c88872311f9fb1d36e8.eot"); src: url("//db.onlinewebfonts.com/t/f77fd2fac65f7c88872311f9fb1d36e8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f77fd2fac65f7c88872311f9fb1d36e8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f77fd2fac65f7c88872311f9fb1d36e8.woff") format("woff"), url("//db.onlinewebfonts.com/t/f77fd2fac65f7c88872311f9fb1d36e8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f77fd2fac65f7c88872311f9fb1d36e8.svg#PantonNarrow-ExtraBoldItalic") format("svg"); }
+
+@keyframes show {
+    from {opacity: 0;} to {opacity: 1;}
+}
+
+.button1 {
+    font-family: PantonNarrow-ExtraBoldItalic;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color:#ff0423;
+    border: 3px;
+    border-radius: 15px;
+}
+
+.button1:hover {
+    font-family: PantonNarrow-ExtraBoldItalic;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color:#b30015;
+    border: 3px;
+    border-radius: 15px;
+}
+
+.socialmedia {
+    justify-content: center;
+	align-items: center;
+    width: 100%;
+	display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 60px;
+}
+
+.icons
+{
+	height: 30px;
+	padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media only screen and (max-height: 730px) {
+    .socialmedia {
+    display: none;
+    }
+
+    .icons {
+	display: none;
+    }
+}
+
+@media only screen and (min-height: 731px) and (max-height: 820px) {
+    .socialmedia {
+    justify-content: center;
+	align-items: center;
+    width: 100%;
+	display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+    }
+}
